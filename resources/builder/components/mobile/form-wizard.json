@@ -1,0 +1,19 @@
+{
+  "id": "mobile-form-wizard",
+  "name": "Mobile Form Wizard",
+  "category": "Workflow",
+  "blade": "components.titan-builder.mobile.form-wizard",
+  "authority": "presentation-only",
+  "props": ["workflowId", "steps", "currentStep", "progress", "draftBinding", "validationMode", "resumeLabel"],
+  "responsive": true,
+  "accessible": true,
+  "offline": true,
+  "source": "MobileKit-adapted",
+  "actions": ["state.set", "state.merge", "ui.previous-page", "ui.next-page", "form.submit-preview"],
+  "interactionEngine": {
+    "stateMachine": true,
+    "resumeSessions": true,
+    "validateTransitions": true,
+    "queueFinalIntentWhenOffline": true
+  }
+}
