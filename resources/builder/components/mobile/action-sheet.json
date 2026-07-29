@@ -1,0 +1,18 @@
+{
+  "id": "mobile-action-sheet",
+  "name": "Mobile Action Sheet",
+  "category": "Mobile Overlay",
+  "blade": "components.titan-builder.mobile.action-sheet",
+  "authority": "presentation-only",
+  "props": ["name", "title", "description", "actions", "cancelLabel", "destructiveAction", "snapPoint"],
+  "responsive": true,
+  "accessible": true,
+  "offline": true,
+  "source": "MobileKit-adapted",
+  "actions": ["state.set", "open-modal", "open-drawer", "navigate"],
+  "interactionEngine": {
+    "validateActions": true,
+    "confirmRisk": ["medium", "high"],
+    "blockUndeclaredActions": true
+  }
+}
