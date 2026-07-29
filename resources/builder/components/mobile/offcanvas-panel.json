@@ -1,0 +1,18 @@
+{
+  "id": "mobile-offcanvas-panel",
+  "name": "Mobile Off-canvas Panel",
+  "category": "Mobile Overlay",
+  "blade": "components.titan-builder.mobile.offcanvas-panel",
+  "authority": "presentation-only",
+  "props": ["name", "title", "side", "content", "closeLabel", "backdrop", "persistent"],
+  "responsive": true,
+  "accessible": true,
+  "offline": true,
+  "source": "MobileKit-adapted",
+  "actions": ["open-drawer", "state.set", "navigate"],
+  "constraints": {
+    "focusTrap": true,
+    "escapeCloses": true,
+    "restoreFocus": true
+  }
+}
