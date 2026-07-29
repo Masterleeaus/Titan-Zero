@@ -1,0 +1,18 @@
+{
+  "id": "mobile-search-overlay",
+  "name": "Mobile Search Overlay",
+  "category": "Search",
+  "blade": "components.titan-builder.mobile.search-overlay",
+  "authority": "read-only",
+  "props": ["queryBinding", "placeholder", "indexes", "recentItems", "resultTemplate", "emptyState", "voiceEnabled"],
+  "responsive": true,
+  "accessible": true,
+  "offline": true,
+  "source": "MobileKit-adapted",
+  "actions": ["search", "filter", "navigate", "state.set"],
+  "interactionEngine": {
+    "resolveEntities": true,
+    "rankLocalResults": true,
+    "abstainBelowConfidence": true
+  }
+}
