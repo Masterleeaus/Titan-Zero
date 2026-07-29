@@ -1,0 +1,35 @@
+{
+  "id": "titan-zero-mobilekit-builder-extension",
+  "name": "Titan Zero Mobile Interaction Components",
+  "version": "1.0.0",
+  "source": "MobileKit v2.9.1 adapted",
+  "authority": "presentation-only",
+  "target_surfaces": [
+    "worker-mobile",
+    "customer-portal",
+    "chat",
+    "inline-generative-ui",
+    "mobile"
+  ],
+  "components": [
+    "mobile/app-bottom-navigation",
+    "mobile/action-sheet",
+    "mobile/offcanvas-panel",
+    "mobile/form-wizard",
+    "mobile/number-stepper",
+    "mobile/sticky-list",
+    "mobile/search-overlay",
+    "mobile/toast-stack",
+    "mobile/activity-timeline",
+    "mobile/connectivity-state"
+  ],
+  "rules": [
+    "Components emit declarative actions only.",
+    "Interaction Engine validates workflow transitions.",
+    "WorkCore remains authoritative for operational writes.",
+    "Offline state is provisional until synchronised.",
+    "No component may expose provider credentials or secrets.",
+    "All overlays must support keyboard escape and focus return.",
+    "All mobile controls must meet a minimum 44px touch target."
+  ]
+}
