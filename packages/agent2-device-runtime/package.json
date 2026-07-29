@@ -1,0 +1,14 @@
+{
+  "name": "@titan-zero/agent2-pwa-device-integration",
+  "version": "0.1.0-staging",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run clean && npm run build && node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
