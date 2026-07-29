@@ -1,0 +1,19 @@
+{
+  "id": "app-bottom-navigation",
+  "name": "App Bottom Navigation",
+  "category": "Mobile Navigation",
+  "blade": "components.titan-builder.mobile.app-bottom-navigation",
+  "authority": "presentation-only",
+  "props": ["items", "active", "safeArea", "badgeBindings", "compact"],
+  "responsive": true,
+  "accessible": true,
+  "offline": true,
+  "source": "MobileKit-adapted",
+  "actions": ["navigate", "state.set"],
+  "constraints": {
+    "minItems": 2,
+    "maxItems": 5,
+    "touchTarget": 44,
+    "requiresLabels": true
+  }
+}
