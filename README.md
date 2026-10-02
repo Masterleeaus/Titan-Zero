@@ -8,6 +8,13 @@
 
 </div>
 
+## Product architecture and engineering highlights
+
+An integration workbench for Titan Zero components. The default branch is a landing page; integration experiments are preserved on separate branches rather than presented as a deployable product.
+
+- **Architecture:** Branch-held material covers a MobileKit component set, an offline device-runtime package with tests, an interaction-kernel upgrade plan, and merge-verification records.
+- **Distinctive engineering:** The useful engineering evidence is component integration and promotion planning across branches; the branch work is not part of the default-branch release.
+
 > **Status: integration snapshot.** The default branch is an integration landing page with a checked-in banner; meaningful integration work currently exists on non-main branches. It is not the active Titan Zero product implementation.
 
 ## Relationship to the active platform
