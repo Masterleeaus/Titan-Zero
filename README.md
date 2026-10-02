@@ -8,7 +8,7 @@
 
 </div>
 
-> **Status: integration snapshot.** The repository currently contains only this README on its default branch. It is not the active Titan Zero product implementation.
+> **Status: integration snapshot.** The default branch is an integration landing page with a checked-in banner; meaningful integration work currently exists on non-main branches. It is not the active Titan Zero product implementation.
 
 ## Relationship to the active platform
 
@@ -19,7 +19,7 @@ This repository should only be used for an integration when its branch, source i
 ## Repository status
 
 - Default branch: `main`
-- Current checked-in content: this README
+- Current checked-in content: this README and portfolio banner
 - Build and test commands: none available on the default branch
 - Release status: no release artifact verified
 
