@@ -1,3 +1,5 @@
+![Titan Zero Integration Workbench — INTEGRATION ARCHIVE](docs/images/portfolio-banner.svg)
+
 <div align="center">
 
 # Titan Zero Integration Archive
