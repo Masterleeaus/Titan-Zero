@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Titan Zero Integration Archive
+# Titan Zero Integration Workbench
 
 **A staging repository for assembling Titan Zero components and integration work.**
 
@@ -25,4 +25,5 @@ This repository should only be used for an integration when its branch, source i
 
 ## Banner
 
-A project-specific graphic has not yet been added. The centered title serves as the landing header until an accurate visual asset is available.
+A checked-in project-specific banner is displayed above.
+
